@@ -1,0 +1,60 @@
+:root {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Introdução Rhe */
+.introducao-rhe {
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.container-rhe {
+  max-width: 70vw;
+  background-color: #00796b;
+  padding: 4rem 10rem 0 9.5rem;
+  flex: 1;
+}
+.logo-rhe {
+  margin-bottom: 3rem;
+}
+.logo-rhe img {
+  display: block;
+  max-width: 100%;
+}
+.container-rhe p {
+  font-size: 1.8rem;
+}
+.container-rhe h1 {
+  max-width: 454px;
+  font-size: 3.6rem;
+  margin: 3rem 0 3rem 0;
+  font-weight: 500;
+}
+.container-rhe h1 + p {
+  max-width: 454px;
+  margin-bottom: 6rem;
+}
+.container-phone {
+  max-width: 30vw;
+}
+.container-phone img {
+  display: block;
+  max-width: 100%;
+}
+.btn {
+  border: none;
+}
+.btn a {
+  width: 180px;
+  background-color: #142850;
+  padding: 1.3rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+}
