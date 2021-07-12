@@ -49,12 +49,44 @@
 }
 .btn {
   border: none;
+  background: #142850;
+  border-radius: 4px;
 }
 .btn a {
-  width: 180px;
-  background-color: #142850;
+  display: block;
+  background: #142850;
+  width: 200px;
   padding: 1.3rem;
   border-radius: 4px;
   text-decoration: none;
   color: white;
+}
+/* seçao valores */
+.valores-rhe {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.container-valores {
+  margin: 17rem 16rem 60rem 16rem;
+}
+.container-valores h1 {
+  font-size: 4.8rem;
+  text-align: center;
+  color: #00796b;
+  margin-bottom: 5rem;
+}
+.container-valores h1 + p {
+  font-size: 2.4rem;
+  color: #00796b;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+.container-valores span {
+  color: #000;
+}
+.container-valores h1 + p + p {
+  font-size: 2.4rem;
+  color: #00796b;
+  text-align: center;
 }
