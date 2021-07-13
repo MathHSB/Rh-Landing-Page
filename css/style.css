@@ -222,3 +222,39 @@ footer {
 .footer-redes li {
   margin-left: 1rem;
 }
+
+/* Estilo para tablets */
+@media only screen and (min-width: 688px) and (max-width: 920px) {
+  .container-phone {
+    display: none;
+  }
+  .container-rhe {
+    max-width: 100vw;
+  }
+  .container-rhe p {
+    font-size: 2.4rem;
+  }
+  .btn {
+    margin-bottom: 6rem;
+  }
+  .container-valores h1 {
+    font-size: 4rem;
+  }
+  .container-valores {
+    margin: 13rem 16rem 20rem 16rem;
+  }
+  .container-clientes {
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+    margin: 10rem auto;
+  }
+  .cliente-walter p,
+  .cliente-luana p,
+  .cliente-sara p {
+    font-size: 1.8rem;
+  }
+  .info-footer li {
+    font-size: 1.6rem;
+  }
+}
