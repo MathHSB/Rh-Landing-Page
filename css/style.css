@@ -258,3 +258,49 @@ footer {
     font-size: 1.6rem;
   }
 }
+/* Estilo para smartphones */
+@media only screen and (min-width: 375px) and (max-width: 687px) {
+  .container-phone {
+    display: none;
+  }
+  .container-rhe {
+    max-width: 100vw;
+    padding: 4rem 3rem;
+  }
+  .container-rhe h1 {
+    font-size: 3rem;
+  }
+  .container-rhe p {
+    font-size: 1.6rem;
+  }
+  .container-valores h1 {
+    font-size: 3rem;
+  }
+  .container-valores {
+    margin: 10rem 10rem;
+  }
+  .container-valores h1 + p {
+    font-size: 1.8rem;
+  }
+  .container-valores h1 + p + p {
+    font-size: 1.8rem;
+  }
+  .servicos-rhe p {
+    font-size: 1.4rem;
+    max-width: 300px;
+  }
+  .container-clientes {
+    margin: 5rem auto;
+    gap: 3rem;
+  }
+  .container-footer {
+    justify-content: center;
+  }
+  .footer-redes {
+    margin-top: 3rem;
+    margin-right: 2rem;
+  }
+  .footer-redes li {
+    margin-left: 1.5rem;
+  }
+}
