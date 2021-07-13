@@ -23,6 +23,7 @@
 }
 .logo-rhe {
   margin-bottom: 3rem;
+  animation: fadeInDown 0.6s forwards;
 }
 .logo-rhe img {
   display: block;
@@ -30,13 +31,26 @@
 }
 .container-rhe p {
   font-size: 1.8rem;
+  animation: fadeInDown 0.5s forwards;
 }
 .container-rhe h1 {
   max-width: 454px;
   font-size: 3.6rem;
   margin: 3rem 0 3rem 0;
   font-weight: 500;
+  animation: fadeInDown 0.5s forwards;
 }
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .container-rhe h1 + p {
   max-width: 454px;
   margin-bottom: 6rem;
@@ -52,6 +66,7 @@
   border: none;
   background: #142850;
   border-radius: 4px;
+  animation: fadeInDown 0.5s forwards;
 }
 .btn a {
   display: block;
